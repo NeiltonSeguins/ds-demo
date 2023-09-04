@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
+const nextConfig = {
+  transpilePackages: ['alfabit-ds'],
+}
+ 
 module.exports = nextConfig
